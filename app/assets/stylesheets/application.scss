@@ -1,4 +1,7 @@
-/*
+/*body { padding-top: 100px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13,8 +16,19 @@
  *= require_tree .
  *= require_self
  */
-body { padding-top: 100px; }
+body { padding-top: 60px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+.navbar {
+  min-height: 38px;
+  background-color: #fff !important;
+  background-image: none !important;
+}
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+}
 
