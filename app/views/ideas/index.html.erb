@@ -4,11 +4,13 @@
   <div class="row">
     <% group.compact.each do |idea| %>
       <div class="col-md-4">
-        <%= image_tag(idea.picture_url(:thumb)) if idea.picture.present? %>
+      <% if idea.picture.present? %>
+       
+        <%= image_tag idea.picture_url, style: "width: 100%; height: 300px;" %>
+        <% end %>
         <h4><%= link_to idea.name, idea %></h4>
         <%= idea.description %>
       </div>
     <% end %>
   </div>
 <% end %>
-asdasdasd

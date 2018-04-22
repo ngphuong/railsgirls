@@ -16,13 +16,15 @@ th { border-bottom: 1px solid #DDD; }
  *= require_tree .
  *= require_self
  */
-body { padding-top: 60px; }
+body {
+    padding-top: 60px; 
+    background-image: url('http://efekt-dieta.info/cdn/images/blue-background-images/blue-background-images-15.jpg')}
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
 .navbar {
   min-height: 38px;
-  background-color: #fff !important;
+  background-color: AA0000 !important;
   background-image: none !important;
 }
 .navbar a.brand { font-size: 18px; }
@@ -32,3 +34,6 @@ th { border-bottom: 1px solid #DDD; }
   text-decoration: none;
 }
 
+.navbar-custom {
+    background-color: black !important;
+}
